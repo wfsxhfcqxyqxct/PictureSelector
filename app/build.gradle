@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion cfgs.compileSdkVersion
-
     defaultConfig {
         applicationId "com.luck.pictureselector"
         minSdkVersion cfgs.minSdkVersion
@@ -16,6 +15,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildToolsVersion cfgs.buildToolsVersion
 }
 
 dependencies {

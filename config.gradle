@@ -2,7 +2,7 @@ ext {
     cfgs = [
             compileSdkVersion    : 26,
             buildToolsVersion    : "27.0.2",
-            minSdkVersion        : 14,
+            minSdkVersion        : 15,
             targetSdkVersion     : 26,
             versionCode          : 10,
             versionName          : "2.0.0",
@@ -10,6 +10,7 @@ ext {
             ucropVersionName     : "2.2.0-native",
 
             //open version control
+            buildToolsVersion    : "27.0.3",
             androidSupportVersion: "27.0.2",
             glide                : "4.5.0",
             rxjava               : "2.0.5",
